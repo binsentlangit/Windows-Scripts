@@ -1,7 +1,8 @@
 # Define variables
 $hostsFilePath = "C:\Windows\System32\drivers\etc\hosts"
 $backupFilePath = "C:\Windows\System32\drivers\etc\hosts.bak"
-$goodbyeAdsURL = "https://scripttiger.github.io/alts/compressed/blacklist.txt"
+#$goodbyeAdsURL = "https://scripttiger.github.io/alts/compressed/blacklist.txt"
+$goodbyeAdsURL = "https://scripttiger.github.io/alts/mcompressed/blacklist.txt"
 $tempFilePath = "$env:Temp\GoodbyeAds_hosts.txt"
 $timestampFilePath = "$env:Temp\GoodbyeAds_timestamp.txt"
 $logFilePath = "$env:Temp\Update-HostsFile.log"
